@@ -52,7 +52,7 @@ Log in to LinkedIn using the default browser profile, perform job searches for -
 
 Instructions:
 
-1. Navigate to: https://www.linkedin.com/jobs
+1. Navigate to: --your job portal--
 2. Log in using saved credentials from the browser's default profile.
 3. Wait for the page to fully load.
 4. search for --your job --
