@@ -1,6 +1,6 @@
 # 🔍 AI-Powered Job Scraper & Auto-Applier
 
-This project automates the process of finding AI-related jobs on job portal and applying to them using browser automation and LLM-based reasoning agents.
+This project automates the process of finding jobs on job portal and applying to them using browser automation and LLM-based reasoning agents.
 
 ---
 
