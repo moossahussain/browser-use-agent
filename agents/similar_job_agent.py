@@ -112,8 +112,8 @@ async def main():
         result = await run_job_scraper()
         if result:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            save_markdown_file(format_markdown(result), f"linkedin_jobs_{timestamp}.md")
-            save_json_file(result, f"linkedin_jobs_{timestamp}.json")
+            save_markdown_file(format_markdown(result), f"jobportal_jobs_{timestamp}.md")
+            save_json_file(result, f"jobportal_jobs_{timestamp}.json")
         else:
             print(" No structured result returned by agent.")
     except Exception as e:
