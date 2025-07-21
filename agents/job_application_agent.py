@@ -29,11 +29,9 @@ async def apply_to_jobs(json_path: str = DEFAULT_JSON_PATH):
     for job in jobs:
         job_url = job["job_url"]
         task = f"""
-Go to the LinkedIn job URL: {job_url}
+Go to the job URL: {job_url}
 
-Check if the job supports Easy Apply.
-If Easy Apply is available:
-- Click Easy Apply
+
 - Fill in the following details:
   - Name: {USER_NAME}
   - Email: {USER_EMAIL}
@@ -41,7 +39,6 @@ If Easy Apply is available:
 - Upload the resume file: `{RESUME_FILE}`
 - Submit the application
 
-If Easy Apply not applicable, go to that their site and continue with the application process
 
 After submitting:
 - Capture whether submission was successful or failed.
