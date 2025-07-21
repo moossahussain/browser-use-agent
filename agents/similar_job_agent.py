@@ -48,7 +48,7 @@ controller = Controller(output_model=JobSearchResults)
 def get_task_prompt() -> str:
     return """
 Objective:
-Log in to LinkedIn using the default browser profile, perform job searches for --your role and location -- using direct URLs, and extract up to 4 relevant job postings in total.
+Log in to --your job portal-- using the default browser profile, perform job searches for --your role and location -- using direct URLs, and extract up to 4 relevant job postings in total.
 
 Instructions:
 
@@ -77,9 +77,9 @@ Instructions:
     {
       "job_title": "AI Engineer",
       "company_name": "Microsoft",
-      "location": "Toronto, ON",
+      "location": "USA",
       "description": "Lead development of AI systems using Azure cloud and LLMs.",
-      "job_url": "https://www.linkedin.com/jobs/view/123456789"
+      "job_url": "https://..../view/123456789"
     }
   ]
 }
