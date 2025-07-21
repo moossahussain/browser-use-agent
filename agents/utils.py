@@ -36,7 +36,7 @@ def format_markdown(data: Union[BaseModel, dict], metadata: dict = {}) -> str:
     posts = data.posts if isinstance(data, BaseModel) else data.get("posts", [])
 
     lines = [
-        "# LinkedIn AI/GenAI Job Search Results",
+        "#  Job Search Results",
         f"**Search Date:** {timestamp}",
         "**Search Queries:**",
         "- AI Engineer",
@@ -58,7 +58,7 @@ def format_markdown(data: Union[BaseModel, dict], metadata: dict = {}) -> str:
 
 def log_error_markdown(error: Exception) -> str:
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    content = f"""# LinkedIn Job Search - Error Log
+    content = f"""#   Job Search - Error Log
 
 **Search Date:** {timestamp}  
 **Status:** Failed
@@ -71,5 +71,5 @@ def log_error_markdown(error: Exception) -> str:
 
 *Generated on {timestamp} by Browser-Use Agent*
 """
-    filename = f"linkedin_jobs_error_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+    filename = f" _jobs_error_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
     return save_markdown_file(content, filename)
