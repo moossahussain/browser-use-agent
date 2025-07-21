@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "job_title": "AI Engineer",
+      "company_name": "Thomson Reuters",
+      "location": "Toronto, Ontario, Canada",
+      "description": "Drive innovation in AI technologies, develop and implement machine learning models, and collaborate with cross-functional teams to integrate AI solutions into Thomson Reuters' products and services.",
+      "job_url": "https://www.linkedin.com/jobs/view/4262548778/?alternateChannel=search&eBP=NON_CHARGEABLE_CHANNEL"
+    },
+    {
+      "job_title": "Ingénieur(e) en Intelligence Artificielle/ AI Engineer",
+      "company_name": "Potloc",
+      "location": "Montreal, Quebec, Canada",
+      "description": "Lead AI initiatives, develop machine learning models, and implement innovative solutions for Potloc's consumer research platform. Collaborate with data scientists and software engineers to integrate AI capabilities into the company's products.",
+      "job_url": "https://www.linkedin.com/jobs/view/4205544848/?eBP=NON_CHARGEABLE_CHANNEL"
+    },
+    {
+      "job_title": "GenAI Developer",
+      "company_name": "Tata Consultancy Services",
+      "location": "Toronto, ON (On-site)",
+      "description": "Develop and implement generative AI solutions, collaborate with cross-functional teams, and contribute to innovative AI projects for Tata Consultancy Services' clients.",
+      "job_url": "https://www.linkedin.com/jobs/view/4265002227/?eBP=NON_CHARGEABLE_CHANNEL"
+    },
+    {
+      "job_title": "Generative AI Engineer",
+      "company_name": "Alexa Translations",
+      "location": "Montreal, QC (Hybrid)",
+      "description": "Develop next-generation intelligent translation and translation-related service engine using Generative AI and Large Language Model technologies. Implement state-of-the-art algorithms and collaborate with the software team to deploy models.",
+      "job_url": "https://www.linkedin.com/jobs/view/4263513381/?eBP=NON_CHARGEABLE_CHANNEL"
+    }
+  ]
+}
