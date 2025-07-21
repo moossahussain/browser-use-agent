@@ -112,6 +112,6 @@ curl -X POST "http://localhost:8000/apply-to-jobs?json_path=job_results/ljoporta
 
 ## 🛡️ Disclaimer
 
-This project is intended for educational and personal use only. Automated job applications should be used responsibly and comply with platform terms of service.
+This project is intended for educational use only. Automated job applications should be used responsibly and comply with platform terms of service.
 
 ---
